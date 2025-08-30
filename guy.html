@@ -5,20 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Guy Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
+        <script
+            src="https://kit.fontawesome.com/ff4029b11d.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
         <header>
-            <h1>Guy Jordan McKechnie</h1>
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#team">Team</a></li>
-                </ul>
-            </nav>
+            <div class="header-left">
+                <h1 class="fade-in-up">Guy McKechnie</h1>
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="index.html">
+                                <i
+                                    class="fa-solid fa-house fa-beat"
+                                    style="color: #f6f6f6"
+                                ></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#team">
+                                <i
+                                    class="fa-solid fa-people-group fa-beat"
+                                    style="color: #f8f8f8"
+                                ></i>
+                                Team
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="img-container">
+                    <img
+                        src="assets/guy-real.png"
+                        alt="Guy McKechnie"
+                        class="img-default"
+                    />
+                    <img
+                        src="assets/guy-ai.png"
+                        alt="Avatar of Guy McKechnie"
+                        class="img-hover"
+                    />
+                </div>
+            </div>
         </header>
         <main>
             <section>
-                <h2>About Me</h2>
+                <h2 class="fade-in">About Me</h2>
                 <p>
                     I am a passionate web developer with experience in creating
                     dynamic and responsive websites. I enjoy solving complex
@@ -26,7 +62,7 @@
                 </p>
             </section>
             <section>
-                <h2>Skills</h2>
+                <h2 class="fade-in">Skills</h2>
                 <ul>
                     <li>HTML & CSS</li>
                     <li>JavaScript</li>
@@ -35,11 +71,15 @@
                 </ul>
             </section>
             <section>
-                <h2>Hobbies</h2>
+                <h2 class="fade-in">Hobbies</h2>
                 <ul>
                     <li>Coding</li>
                     <li>Gaming</li>
                 </ul>
+            </section>
+            <section>
+                <h2 class="fade-in">Unique Feature</h2>
+                <p>My unique feature was the text animations.</p>
             </section>
         </main>
     </body>
